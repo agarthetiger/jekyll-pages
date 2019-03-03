@@ -8,7 +8,6 @@ branches:
 install: bundle install
 script:
   - bundle exec github-pages versions
-  - bundle exec github-pages health-check
   - jekyll build -s docs -d docs/_site
   - htmlproofer ./docs/_site
 
