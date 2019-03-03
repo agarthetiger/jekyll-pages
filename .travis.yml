@@ -8,8 +8,7 @@ branches:
 install: bundle install
 script:
   - bundle exec github-pages versions
-  - jekyll build -s docs -d docs/_site
-  - htmlproofer ./docs/_site
+  - bundle exec rake test
 
 addons:
   apt:
