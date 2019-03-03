@@ -1,0 +1,8 @@
+title: GitHub Pages with Jekyll
+description: Test site using Jekyll and the Cayman theme with GitHub Pages
+show_downloads: false
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-mentions
+
